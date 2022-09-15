@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="резюме, Килин, Геннадий, стаж работы">
+    <meta name="description" content="Это резюме начинающего WEB программиста Килина Геннадий Петрович">
+    <title>Резюме</title> <!--Название сайта-->
+    <style>
+        .header {
+            border-bottom: 2px solid grey;
+        }
+        .card {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="PORTRET.jpg" alt="Килин Геннадий" width="250"><!--Фото-->
+        <header id="header" class="header">
+            <h1>
+                <strong>Килин Геннадий</strong> <!--Заголовок-->
+            </h1>
+                <p>
+                    Меня зовут <strong>Килин Геннадий</strong>, родился 26.05.1998гг, проживаю в городе Караганда. Есть средне-техническое образование на специальность ИС (<em>информационные системы</em>). В Данный момент обучаюсь
+на высшее образование по той же специальности. Я люблю <em>путешествовать по миру, заниматься спортом, позновать что-либо новое</em>.
+                </p>
+        </header>
+        <br>
+    <section>
+        <article id="block1" class="card header">
+            <h2>
+                Список социальных сетей:
+            </h2>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100009402970232" target="_blank">Facebook</a> |<!--Ссылки на соц.сети-->
+                    <a href="https://www.instagram.com/kilin.gennadiy/" target="_blank">Instagram</a> |
+                    <a href="https://www.tiktok.com/@genakilin1998?lang=ru-RU" target="_blank">Tik Tok</a>
+                </div>
+        </article>
+        <article id="block2" class="card header">
+            <h2>
+                <strong>Мои хобби:</strong>
+            </h2>
+                <div id="hobi" class="footer">
+                    <ol>
+                        <li>Путешествие</li>
+                        <li>Саморазвитие</li>
+                        <li>Рисование</li>
+                        <li>Чтение</li>
+                        <li>Изучение английского языка</li>
+                    </ol>
+                </div>
+        </article>
+        <article id="block3" class="card header">
+            <h2>
+                <strong>Опыт работы:</strong>
+            </h2>
+                <table width="500" >
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>КарГТУ</td>
+                            <td>Сис.админ</td>
+                            <td>2016-2017</td>
+                        </tr>
+                        <tr>
+                            <td>В/Ч 6506</td>
+                            <td>Военнослужащий</td>
+                            <td>2017-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Белый ветер</td>
+                            <td>Продавец</td>
+                            <td>2018-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Мечта</td>
+                            <td>Продавец</td>
+                            <td>2021-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung</td>
+                            <td>Консультант</td>
+                            <td>2022-сейчас</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </article>
+    </section>
+    <footer>    
+        <h2>
+            Связаться со мной
+        </h2>
+            <form>
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div>
+                    <label for="email">Ваш Email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                        <br>
+                    <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение"></textarea>
+                </div>
+                    <input type="submit" value="Отправить!">
+            </form>
+    </footer>
+</body>
+</html>
